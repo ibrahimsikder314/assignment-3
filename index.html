@@ -24,6 +24,7 @@
                 'color-green': '#ABEF5F',
                 'light-green':'#ABEF5F33',
                 'extra-light-green':'#ABEF5F80',
+                'black-color':'#1C1C1C',
               }
             }
           }
@@ -173,7 +174,6 @@
     </div>
   </div>
 <!-- latest portfolio -->
-<section>
     <div class="space-y-5 pb-8">
         <button class=" btn bg-light-green px-5 py-2 font-bold flex justify-center items-center rounded-full border-none gap-3 mx-auto">
           <i class="fa-solid fa-arrow-right-long w-8 h-8 rounded-full flex justify-center items-center"></i> 
@@ -235,7 +235,6 @@
           <img src="./assets/img5.png" alt="" class="mx-auto w-full p-5">
         </div>
       </div>
-</section>
 <!-- lets connect section -->
 <div class="relative w-full h-full flex items-center justify-center bg-cover bg-center" style="background-image: url(/assets/bg.jpg)">
   <!-- Content Container -->
@@ -267,7 +266,7 @@
           <textarea placeholder="Your Comment" class="textarea textarea-bordered w-full" rows="4"></textarea>
 
           <!-- Submit Button -->
-          <button class="btn bg-color-green flex items-center space-x-2 w-full">Send Mail
+          <button class="btn bg-color-green text-xl font-extrabold flex items-center space-x-2 w-full">Send Mail
               <i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 rounded-full flex justify-center items-center text-white bg-black"></i>
           </button>
       </form>
@@ -277,13 +276,17 @@
      </main>
     <!-- footer section -->
      <footer>
-      <div class="bg-black text-white p-8 rounded-lg shadow-lg  max-w-screen-xl mx-auto">
+      <div class="bg bg-black-color text-white p-8 rounded-lg shadow-lg  max-w-screen-xl mx-auto">
         <!-- Heading and Paragraph -->
-        <div class="text-center mb-6">
-            <h1 class="text-4xl font-extrabold mb-2">Rinterio <i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 rounded-full flex justify-center items-center text-black ml-96 bg-color-green"></i></h1>
-            <p class="text-base font-semibold text-gray-400 pt-4">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        <div class="flex flex-col items-center space-y-4 p-6 ">
+          <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-arrow-right -rotate-45 w-8 h-8 rounded-full flex justify-center items-center text-black bg-color-green"></i>
+            <span class="text-3xl text-white font-extrabold">Rinterio</span>
+          </div>
+          <p class="text-gray-400 text-center text-base font-semibold">
+            The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+          </p>
         </div>
-
         <!-- List of Items -->
         <ul class="flex justify-center space-x-32 mb-6 pt-5">
             <li class="flex items-center ">
